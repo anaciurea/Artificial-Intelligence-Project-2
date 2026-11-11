@@ -19,7 +19,5 @@ Image classification on two datasets:
 - Prediction generation for Kaggle submission
 
 ## How to run
-```bash
 pip install torch torchvision scikit-learn pandas numpy matplotlib seaborn pillow tensorboard
 jupyter notebook Tema2-IA-Ciurea-Ana-Sorina-cod.ipynb
-```
