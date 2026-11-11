@@ -1,24 +1,24 @@
-# Tema 2 — Inteligență Artificială: Clasificarea imaginilor cu rețele neurale
+# Artificial Intelligence — Assignment 2: Image Classification with Neural Networks
 
-Clasificare de imagini pe două seturi de date:
-- **„Vai de pielea mea”** — leziuni cutanate
-- **„You're on candid camera”** — expresii faciale
+Image classification on two datasets:
+- **"Vai de pielea mea"** — skin lesions
+- **"You're on candid camera"** — facial expressions
 
-## Conținut
-| Fișier | Descriere |
+## Contents
+| File | Description |
 |---|---|
-| `Tema2-IA-Ciurea-Ana-Sorina-cod.ipynb` | Codul complet (PyTorch) |
-| `Tema2-IA-Ciurea-Ana_Sorina-raport (1).pdf` | Raportul cu metodologie și rezultate |
+| `Tema2-IA-Ciurea-Ana-Sorina-cod.ipynb` | Full source code (PyTorch) |
+| `Tema2-IA-Ciurea-Ana_Sorina-raport (1).pdf` | Report with methodology and results |
 
-## Ce include
-- MLP și CNN antrenate de la zero, cu augmentări de date
-- Tratarea dezechilibrului de clase (ponderi, `WeightedRandomSampler`)
-- Fine-tuning ResNet-18 și MobileNet-v2, cu LR warmup
-- Ablații: Dropout, BatchNorm, augmentări, dezechilibru, warmup
+## What's included
+- MLP and CNN models trained from scratch, with data augmentation
+- Class imbalance handling (class weights, `WeightedRandomSampler`)
+- Fine-tuning of ResNet-18 and MobileNet-v2, with LR warmup
+- Ablation studies: Dropout, BatchNorm, augmentations, class imbalance, warmup
 - Bonus: Curriculum Learning
-- Generarea predicțiilor pentru Kaggle
+- Prediction generation for Kaggle submission
 
-## Rulare
+## How to run
 ```bash
 pip install torch torchvision scikit-learn pandas numpy matplotlib seaborn pillow tensorboard
 jupyter notebook Tema2-IA-Ciurea-Ana-Sorina-cod.ipynb
