@@ -1,7 +1,5 @@
 # Tema 2 — Inteligență Artificială: Clasificarea imaginilor cu rețele neurale
 
-**Autor:** Ciurea Ana-Sorina
-
 Clasificare de imagini pe două seturi de date:
 - **„Vai de pielea mea”** — leziuni cutanate
 - **„You're on candid camera”** — expresii faciale
